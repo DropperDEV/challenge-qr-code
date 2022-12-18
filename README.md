@@ -10,6 +10,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -44,8 +45,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
   I learned about margin, padding and width.
 
-To see how you can add code snippets, see below:
-
 ```html
   <main>
         <section>
@@ -66,7 +65,12 @@ section figure{
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more
+## Useful resources
+  - https://meyerweb.com/eric/tools/css/reset/  **Good reset**
+  - https://developer.mozilla.org/pt-BR/ **Useful informations**
+
+  
 
 ## Author
 - Frontend Mentor - [@JamesSoaresCosta](https://www.frontendmentor.io/profile/yourusername)
+- Github - [@DropperDEV](https://github.com/DropperDEV)

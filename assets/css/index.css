@@ -1,26 +1,26 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-
-main{
+body{
     display: flex;
-    height: 100vh;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
     background-color: #D6E2F0;
-
 }
 
 section{
     display: flex;
+    flex-direction: column;
     height: 450px;
     width: 300px;
-    flex-direction: column;
-    background-color: #FFFFFF;
+    margin-top: 50%;
     padding: 20px 15px;
-    border-radius: 5%;
     align-items: center;
     text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 5%;
 }
 
 section figure{
@@ -35,18 +35,21 @@ section figure img{
 }
 
 section h1{
-    color: #1F3251;
+    margin: 15px 30px 20px 15px;
     font-family: 'Outfit';
     font-weight: 700;
     font-size: 20px;
-    margin: 15px 30px 20px 15px;
+    color: #1F3251;
 }
 
 section p{
-    color:  #7B879D;
     font-family: 'Outfit';
     font-weight: 400;
     font-size: 15px;
     margin: 15px 20px;
-    text-align: center;
+    color:  #7B879D;
+}
+
+footer{
+    margin-top: 22%;
 }
